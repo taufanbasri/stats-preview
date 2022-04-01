@@ -21,21 +21,21 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="mx-auto min-h-screen flex flex-col items-center justify-center object-center font-inter bg-dark-blue">
+<body class="mx-auto min-h-screen flex flex-col items-center justify-center object-center font-inter bg-dark-blue gap-10">
 
-  <main class="max-w-[375px] rounded-lg overflow-hidden items-center bg-desaturated-blue">
-    <header class="bg-[url('./images/image-header-mobile.jpg')] bg-cover h-80">
+  <main class="max-w-[375px] rounded-lg overflow-hidden items-center bg-desaturated-blue lg:max-w-5xl lg:flex lg:flex-row-reverse">
+    <header class="bg-[url('./images/image-header-mobile.jpg')] lg:bg-[url('./images/image-header-desktop.jpg')] bg-cover h-80 lg:h-[400px] lg:w-[540px]">
       <div class="h-full bg-soft-violet bg-opacity-75"></div>
     </header>
     
-    <section class="flex flex-col items-center text-center gap-5 px-5 py-10">
+    <section class="flex flex-col items-center text-center gap-5 px-5 py-10 lg:w-1/2 lg:items-start lg:text-left lg:px-14 lg:gap-8">
       <h1 class="font-lexend text-white text-4xl">Get <span class="text-soft-violet">insights</span> that help your business grow.</h1>
 
-      <p class="text-white-trans-75 px-7">
+      <p class="text-white-trans-75 px-7 lg:px-0 lg:pb-10">
         Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
       </p>
 
-      <div class="flex flex-col gap-4 text-white-trans-60 uppercase">
+      <div class="flex flex-col gap-4 text-white-trans-60 uppercase lg:flex-row lg:space-x-10">
         <div>
           <h3 class="text-white text-xl font-bold">10k+</h3> 
           <span class="text-sm">companies</span>
@@ -52,9 +52,9 @@
     </section>
   </main>
 
-  <div class="attribution">
+  <div class="attribution text-white">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Taufan Prasetyo</a>.
   </div>
 </body>
 </html>
